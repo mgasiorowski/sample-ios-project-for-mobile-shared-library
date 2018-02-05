@@ -1,0 +1,24 @@
+excluded: 
+  - Pods
+
+disabled_rules:
+  - type_name
+  - force_cast
+  - line_length
+  - type_body_length
+  - variable_name #docelowo powinno byc wlaczone
+  - cyclomatic_complexity
+  - trailing_whitespace #do uzgodnienia, ale powinno byc wlaczone
+  - function_body_length #do uzgodnienia
+  - function_parameter_count #do uzgodnienia
+  - force_try #do uzgodnienia
+  - valid_docs
+  - legacy_constructor
+  - legacy_constant
+  - void_return
+  - todo
+  - vertical_parameter_alignment
+  - opening_brace
+
+file_length:
+  warning: 1000 #do uzgodnienia
