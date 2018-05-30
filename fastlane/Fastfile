@@ -19,8 +19,6 @@ platform :ios do
         clear_derived_data
         clean_build_artifacts
 
-        sh 'bundle install --path .vendor/bundle'
-
         ENV["FASTLANE_XCODE_LIST_TIMEOUT"] = '60'
         cocoapods
     end
